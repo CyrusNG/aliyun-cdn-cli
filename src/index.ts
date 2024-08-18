@@ -42,7 +42,7 @@ export default async function run() {
 
   // 获取配置
   const config = {} as Access
-  const configPath = path.posix.join(process.cwd(), c || './aliyun.config.json')
+  const configPath = c || path.posix.join(process.cwd(), './aliyun.config.json')
   if (fs.existsSync(configPath)) Object.assign(config, require(configPath))
 
   // console.log('config:', JSON.stringify(config))

@@ -1,6 +1,6 @@
 {
-  "name": "@mengxk2008/aliyun-cdn-cli",
-  "version": "1.0.8",
+  "name": "aliyun-cdn-cli",
+  "version": "1.0.10",
   "description": "aliyun cdn cli for refresh and push in shell",
   "main": "./src/index.ts",
   "bin": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mengxk2018/aliyun-cdn-cli.git"
+    "url": "git://github.com/CyrusNG/aliyun-cdn-cli.git"
   },
   "keywords": [
     "aliyun",
@@ -24,7 +24,7 @@
   ],
   "author": "Mejor",
   "license": "MIT",
-  "homepage": "https://github.com/mengxk2018/aliyun-cdn-cli",
+  "homepage": "https://github.com/CyrusNG/aliyun-cdn-cli",
   "dependencies": {
     "@alicloud/cdn20180510": "^1.0.7",
     "minimist": "^1.2.5"
